@@ -65,20 +65,16 @@
   text-align: center;
   
 }
-.h2{
-
-    color: #000000;
-    text-align: center;
-    font-size: 50px;
-    
+body, p, li, a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
+
 #Turismo h2 {
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 1px;
-  font-weight: 300;
+    font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
   background-color: #ffffff;
- 
-  padding: center 50px;
+  padding:center;
  
 }
 .card-img-top {
@@ -120,20 +116,8 @@
   object-fit: cover;
  
 }
-#Servicios li {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 500;
- 
-}
+
 .form-label {
   font-size: 1.2rem;
   font-weight: 600;
-}
-
-
-.boton:hover{
-    background-color: #448653;
-    color: dark;
-    
-
 }
