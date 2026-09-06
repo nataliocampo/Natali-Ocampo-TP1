@@ -109,6 +109,10 @@
     
 }
 
+.row.g-0 img {
+  height: 180px; 
+  object-fit: cover;
+}
 .boton{
     background-color: #3dcc80;
     color: dark;
