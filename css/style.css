@@ -114,13 +114,23 @@
   height: 180px; 
   object-fit: cover;
 }
-.boton{
-    background-color: #3dcc80;
-    color: dark;
-    
-
-
+.col-md-4 img {
+  height: 400px;
+   width: 100%;
+  object-fit: cover;
+ 
 }
+#Servicios li {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+ 
+}
+.form-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
 .boton:hover{
     background-color: #448653;
     color: dark;

@@ -25,8 +25,8 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#Turismo">Turismo</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#servicios">Servicios</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#contacto">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#Servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#Contacto">Contacto</a></li>
         </ul>
         </div>
     </div>
@@ -98,34 +98,72 @@
 
         <section id="Servicios" class="pt-3 pb-5">
           <div class="container">
-            
-  
-            <div class="col-md-6">
-              
-            <div class="row align-items-center">
-              <div class="bg-white rounded p-4 shadow-sm">
-              <ul class="list-unstyled fs-5 mb-0">
-                <h2 class="text-right mb-4">Servicios</h2>
-                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Parilla</li>
-                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Hamacas</li>
-                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Estacionamiento</li>
-                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Salamandra</li>
-                <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Wi-Fi</li>
+            <div class="bg-white rounded p-4 shadow-sm">
+              <div class="row align-items-center">
+
+                <div class="col-md-4 ">
+      
+                   <img src="../img/Salamandra.jpeg" class="img-fluid rounded" alt="Servicios del hospedaje">      </div>
+
+                <div class="col-md-4 ">
+                  <h2 class="mb-4 text-center">Servicios</h2>
+             <ul class="list-unstyled fs-5 mb-0 ">
+              <li class="mb-3 py-2 px-3 rounded bg-light"><i class="bi bi-check-circle-fill text-success me-2"></i>Capacidad para 4 personas</li>
+              <li class="mb-3 py-2 px-3 rounded bg-light"><i class="bi bi-check-circle-fill text-success me-2"></i>Parilla</li>
+              <li class="mb-3 py-2 px-3 rounded bg-light"><i class="bi bi-check-circle-fill text-success me-2"></i>Hamacas</li>
+              <li class="mb-3 py-2 px-3 rounded bg-light"><i class="bi bi-check-circle-fill text-success me-2"></i>Estacionamiento</li>
+              <li class="mb-3 py-2 px-3 rounded bg-light"><i class="bi bi-check-circle-fill text-success me-2"></i>Salamandra</li>
+              <li class="mb-3 py-2 px-3 rounded bg-light"><i class="bi bi-check-circle-fill text-success me-2"></i>Wi-Fi</li>
         
               </ul>
             </div>
 
-      <div class="col-md-6">
-      <img src="../img/Salamandra.jpeg" class="img-fluid rounded" alt="Servicios del hospedaje">      </div>
-
+      <div class="col-md-4">
+      
+      <img src="../img/Patio.jpeg" class="img-fluid rounded" alt="Servicios del hospedaje">      
+        </div>
+      </div>
     </div>
-  </div>
-</section> 
+<section>
 
+<section id="Contacto" class="pt-3 pb-5"></section>
+  <div class="container">
+    <div class="bg-white rounded p-4 shadow-sm">
+      <h2 class="text-mb-4 fs-1"> Contacto</h2>
+    
+        <form>
+        <div class="row g-3">
 
-            </div>
+          <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required>
+
           </div>
-        </section>
+           <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+
+          </div>
+           <div class="col-md-6">
+            <label for="telefono" class="form-label">Nro de telefono</label>
+            <input type="tel" class="form-control" id="telefono" required>
+          
+          </div>
+           <div class="col-md-6">
+            <label for="fecha" class="form-label">Fecha prevista de alojamiento</label>
+            <input type="date" class="form-control" id="fecha" required>
+          </div>
+
+          <div class="col-md-1 mx-auto">
+            <button type="button" class="btn btn-primary btn-md mt-3" onclick="document.querySelector('form').reset()" >Enviar</button>
+          </div>
+
+        <div>
+
+        </form>
+        </div>
+      </div>
+</section> 
 
     </main>
     <footer>
