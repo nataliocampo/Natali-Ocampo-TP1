@@ -39,7 +39,8 @@
       
 }
 .hero-section{
-    background-image: url('C:/ProyectosAppWeb/Natali-Ocampo-tp1/Natali-Ocampo-TP1/img/Vaquerias.jpeg');
+    
+    background-image: url('../img/Vaquerias.jpeg');
     background-position: center;
    
     height: 60vh;
