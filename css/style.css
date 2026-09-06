@@ -1,6 +1,6 @@
 
 .bg-verde-claro{
-        background-color: #a8edcb;
+        background-color: #d0f7e3;
 }  
 .navbar{
         background-color:#ffffff;
@@ -62,13 +62,58 @@
   font-size: 20px;
   margin-top: 1.5rem;
   text-align: center;
-    text-shadow:1px 1px 40px rgba(0, 0, 0, 0.9);
+  
+}
+.h2{
+
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+    
+}
+#Turismo h2 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+  background-color: #ffffff;
+ 
+  padding: center 50px;
+ 
+}
+.card-img-top {
+  height: 500px;
+ border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+ 
+ 
+  object-fit: cover;
+    
+}
+.card-title{
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+
+}
+.card-text{
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+
+}
+.card{
+    
+    border-radius: 20px;
+    
 }
 
 .boton{
     background-color: #3dcc80;
     color: dark;
     
+
 
 }
 .boton:hover{
