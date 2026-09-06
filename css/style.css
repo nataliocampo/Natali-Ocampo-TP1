@@ -121,3 +121,12 @@ body, p, li, a {
   font-size: 1.2rem;
   font-weight: 600;
 }
+@media (max-width: 768px) {
+  .col-md-4 img {
+    height: 200px;
+  }
+
+  .card-img-top {
+    height: 250px;
+  }
+}
